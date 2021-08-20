@@ -1,27 +1,154 @@
+* {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+html {
+	font-size: 16px;
+	background-color: #f3f3f3;
+}
 .clear {
 	clear: both;
+}
+
+.mainDetails {
+	padding: 27px 32px;
+	text-align: justify;
 }
 
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	margin-bottom: 2px;
+}
+
+#headshot img{
+	border-radius: 100px;
+	width: 100px;
+	margin-left: 130px;
+	margin-top: 10px;
 }
 
 #name {
 	float: left;
+	overflow: hidden;
+}
+
+#name h1 {
+	font-family: "Rokkitt", sans-serif;
+	font-size: 2.5rem;
+	font-weight: 650;
+	margin-top: 6px;
+
+}
+
+#name h2 {
+	font-family: "Rokkitt", sans-serif;
+	font-size: 2em;
+	font-weight: 350;
+	margin-left: 2px;
 }
 
 #contactDetails {
 	float: right;
+	overflow: hidden;
+	margin-right: 100px;
+	font-weight: 300;
+	color: #444;
+	margin-top: 20px;
+	margin-bottom: 3px;
+	font-family: "Rokkitt", sans-serif;
+}
+
+#contactDetails ul li a {
+	color: #444
+	
+}
+
+section {
+	padding: 18px;
+}
+
+.sectionTitle h1 {
+	font-family:"Rokkitt", sans-serif;
+	font-style: italic;
+	color: #cf8a05;
+	font-size: 22px;
+	font-weight: 500;
+	text-align: end;
 }
 
 .sectionTitle {
 	float: left;
+	overflow: hidden;
 	width: 25%;
 }
 
+.sectionContent h2{
+	font-family: "Rokkitt", sans-serif;
+	font-size: 26px;
+	font-weight: 500;
+	color: #181818;
+}
+.sectionContent p{
+	max-width: 650px;
+}
 .sectionContent {
 	float: right;
+	overflow: hidden;
 	width: 72.5%;
+}
+
+.subDetails {
+	font-family: "Rokkitt", sans-serif;
+	font-size: 15px;
+	font-style: italic;
+	color: #181818;
+	font-weight: 200;
+	margin-bottom: 5px;
+	margin-top: 2px;
+}
+
+p {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #444;
+}
+
+.keySkills {
+	margin-bottom: 20px;
+	font-size: 20px;
+	column-count: 3;
+	max-width: 650px;
+}
+.keySkills li {
+	font-family: "Arial", sans-serif;
+	font-weight: 200;
+	color: #444;
+	
+}
+
+.divSeparate {
+	width: 72.5%;
+	border: 1px solid #cf8a05;
+	margin: 0 auto;
+}
+
+.divDivisoria {
+	width: 72.5%;
+	background-color: #dedede;
+	height: 1px ;
+	margin: 0 auto;
+
+}
+
+.Details {
+	margin-top: 20px;
 }
